@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictureFrame{
+    border: 2px solid #000;
+    border-radius: 50%;
+    min-width: 90vh;
+    min-height: 90vh;
+}
