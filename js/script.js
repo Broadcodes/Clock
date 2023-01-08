@@ -50,14 +50,9 @@ let timeSeconds = setInterval(() => {
         ore++;
     }
 
-    if (ore != 12) {
+    if (ore <= 24) {
         let meltedHours = (360 / 12) * ore + (min / 2);
         hours.style.transform = `rotate(${meltedHours}deg)`;
-    } else {
-        sec = 0;
-        min = 0;
-        ore = 0;
-        hours.style.transform = `rotate(0deg)`;
     }
 
 }, 1000);
